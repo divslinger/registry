@@ -55,5 +55,6 @@ server.listen(port, err => {
     throw err;
   } else {
     console.log(`Listening on port ${port}`);
+    console.log(`local registry available at http://localhost:${port}/x/`);
   }
 });
